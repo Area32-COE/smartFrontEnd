@@ -1,0 +1,81 @@
+/* body{
+    background-color: white;
+} */
+
+.container{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: row;
+    height: 100vh;
+}
+
+.floatChild1{
+    padding-left: 8.34rem;
+    height: 40rem;
+}
+
+.floatChild2{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    /* gap: 4px; */
+    padding-left: 50px;
+    padding-top: 15vh;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.textin{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-top: 5px;
+}
+
+.signIn{
+    font-family: 'Inter';
+    background: #008B66;
+    border-radius: 30px;
+    border: 0px;
+    width: 462px;
+    height: 79px;
+    margin-top: 44px;
+    font-size: 32px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.signIn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+
+.login{
+    font-family: 'Inter';
+    background: #002C20;
+    border-radius: 30px;
+    border: 0px;
+    width: 462px;
+    height: 79px;
+    font-size: 32px;
+    margin-top: 80px;
+    color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.login:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+
+.smlogo{
+    /* size: 111.65 104.76; */
+    height: 111.65px;
+    width: 106.76px;
+}

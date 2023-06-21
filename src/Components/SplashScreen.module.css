@@ -1,0 +1,32 @@
+.pageContainer {
+    background-color: #008B66;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+.centeredImage {
+  width: 200px; /* Adjust as per your needs */
+  height: 200px; /* Adjust as per your needs */
+}
+
+
+.welcomeName{
+    color: white;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-decoration: underline;
+    margin-top: 16px; /* Adjust as per your needs */
+    display: flex;
+    align-items: flex-end;
+    width: 322px;
+    height: 56px;
+
+}
+
