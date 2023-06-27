@@ -1,6 +1,7 @@
 import classes from "./Login.module.css";
 import loginImg from "../Images/LOGIN ILLUSTRATION 1.png";
 import smartlogo from "../Images/Rectangle.png";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -28,9 +29,15 @@ function Login() {
           <small className={classes.remeber}>Remember me</small>
           <small className={classes.forgotpassw}>Forgot Password?</small>
         </span>
-        <button className={classes.login}>Login</button>
-        <button className={classes.signGoogle}>Sign in with Google</button>
-        <button className={classes.signUp}>Sign up</button>
+        <Link>
+          <button className={classes.login}>Login</button>
+        </Link>
+        <Link>
+          <button className={classes.signGoogle}>Sign in with Google</button>
+        </Link>
+        <Link to='/signup'>
+          <button className={classes.signUp}>Sign up</button>
+        </Link>
       </div>
     </div>
   );
