@@ -4,6 +4,8 @@ import SplahScreen from "./Components/SplashScreen";
 import Welcome from "./Pages/Welcome";
 import SignUp from "./Pages/SignUp";
 import Login from "./Pages/Login"
+import DriverTaskPage from "./Pages/DriverPages/DriverTaskPage";
+import DriverMainPage from "./Pages/DriverPages/DriverMainPage";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/welcome" element={<Welcome/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/signup" element={<SignUp/>}/>
+        <Route path="/driver-main" element={<DriverMainPage/>}/>
       </Routes>
 
     </div>
