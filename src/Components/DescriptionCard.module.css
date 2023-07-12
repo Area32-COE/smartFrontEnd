@@ -1,0 +1,118 @@
+.card {
+    display: flex;
+    width: 649px;
+    height: 456px;
+    left: 363px;
+    top: 166px;
+    background: #008B66;
+    box-shadow: 7px 8px 10px 1px rgba(57, 44, 44, 0.17);
+    border-radius: 44px;
+}
+
+.today {
+    display: block;
+    width: 49px;
+    height: 19px;
+    left: 420px;
+    margin-top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 1cm;
+}
+
+
+.Briefpic {
+   margin-left: -10%;
+   margin-bottom: 0;
+   margin-top: 1cm;
+   height: 417px;
+}
+
+.brief{
+    margin-left: 1cm;
+    margin-bottom: 0%;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #002C20;
+    margin-left: 1cm;
+    margin-top: 0;
+    margin-bottom: 35%;
+}
+
+
+.Task {
+    width: 21px;
+    height: 21px;
+    left: 412px;
+    top: 500px;
+    background: #002C20;
+    border-radius: 4px;
+    margin-left: 1cm;
+}
+
+.Taskd {
+    width: 116px;
+    height: 17px;
+    left: 445px;
+    top: 501px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-left: 1cm;
+
+}
+
+.Client{
+    width: 21px;
+    height: 21px;
+    left: 412px;
+    top: 537px;
+    background: #C6C6C6;
+    border-radius: 4px;
+    margin-left: 1cm;
+}
+
+.Clientd{
+    width: 124px;
+    height: 17px;
+    left: 445px;
+    top: 540px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF; 
+    margin-left: 1cm;
+}
+
+
+.bar {
+    width: 181px;
+    height: 2px;
+    left: 411px;
+    top: 528px;
+    background: #002C20;
+    margin-left: 1cm;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}

@@ -1,0 +1,54 @@
+.mcard{
+    display: flex;
+    width: 288px;
+    height: 303px;
+    top: 662px;
+    left: 767px;
+    border-radius: 44px;
+    background: #42685F;
+    box-shadow: 7px 8px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 44px;
+    margin-left: 5cm;
+}
+
+.text{
+    width: 43px;
+    height: 24px;
+    top: 687px;
+    left: 804px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFF;
+    margin-left: 1cm;
+    margin-top: 1cm;
+}
+
+
+.mapp {
+    position: relative;
+
+    width: 253px;
+    height: 177px;
+    left: 785px;
+    top: 742px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 6cm;
+    margin-bottom: 6cm;
+    margin-left: 2cm;
+
+
+}
+
+.arrow {
+    position: absolute;
+    width: 23.98111016232612px;
+    height: 23.98111016232612px;
+    top: 696.815673828125px;
+    left: 987.4039916992188px;
+    rotate: 24.16;
+    
+}

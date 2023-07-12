@@ -7,7 +7,7 @@ function Login() {
   return (
     <div className={classes.container}>
       <img className={classes.loginImg} src={loginImg} alt="loginImg"></img>
-      <div className={classes.floatChild2}>
+    <div className={classes.floatChild2}>
         <img
           className={classes.smartlogo}
           src={smartlogo}
